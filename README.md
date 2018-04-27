@@ -1,6 +1,8 @@
 # postgres-log
 Postgresql docker container which logs queries to stdout
 
+Correct usage of $PGDATA env variable.
+
 ## Versions
 Note that versions are available as branches.
 
