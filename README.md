@@ -1,13 +1,13 @@
 # postgres-log
-Postgresql docker container which logs queries to stdout
+Postgresql docker container which logs queries to stdout.
 
-Correct usage of $PGDATA env variable.
+Replaces log_statement="off" by log_statement="all".
+ 
+Uses $PGDATA env variable to locate postgres conf files.
 
 ## Versions
-Note that versions are available as branches.
 
-
-The following versions are available:
+The following postgres versions are available:
 
 * 9.1
 * 9.2
